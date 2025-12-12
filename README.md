@@ -1,6 +1,6 @@
 # 📧 Automated Personalized Email & Invitation Sender
 
-## 📖 Background Story
+## Background Story
 
 I had the responsibility of sending **personalized invitation emails and custom invitation cards** to each faculty member of my university to invite them to **GDSC TechXpo**.
 
@@ -13,7 +13,7 @@ If you ever face a similar situation, this workflow can save you **hours of manu
 
 ---
 
-## 🚀 What This Script Does
+## What This Script Does
 
 - Reads recipient details from an Excel file  
 - Sends HTML-formatted personalized emails  
@@ -23,7 +23,7 @@ If you ever face a similar situation, this workflow can save you **hours of manu
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 project/
@@ -39,7 +39,7 @@ project/
 
 ---
 
-## 📊 Excel File Schema (Required)
+## Excel File Schema (Required)
 
 Your Excel file **must follow this schema exactly**:
 
@@ -57,7 +57,7 @@ Your Excel file **must follow this schema exactly**:
 
 ---
 
-## 🧠 Excel Tips (Highly Recommended)
+## Excel Tips (Highly Recommended)
 
 ### Extracting Last Name Automatically
 
@@ -81,7 +81,7 @@ This reduces human error and ensures filename consistency.
 
 ---
 
-## 🎨 Creating Invitation Cards in Canva
+## Creating Invitation Cards in Canva
 
 ### Canva Bulk Create Workflow
 
@@ -99,7 +99,7 @@ This reduces human error and ensures filename consistency.
 
 ---
 
-## ⚙️ Script Configuration
+## Script Configuration
 
 Update these values in the script:
 
@@ -111,12 +111,12 @@ PASSWORD = "your_app_password"
 CC_EMAIL = "cc_email@domain.edu"
 ```
 
-🔐 **Security Note:**  
+ **Security Note:**  
 Never commit real credentials to GitHub. Use environment variables for production.
 
 ---
 
-## 🔁 How the Script Works
+## How the Script Works
 
 1. Loads recipient data from Excel  
 2. Connects to Outlook SMTP (Office365)  
@@ -128,7 +128,7 @@ Never commit real credentials to GitHub. Use environment variables for productio
 
 ---
 
-## ⏱️ Rate Limiting
+## Rate Limiting
 
 The script includes:
 
@@ -140,7 +140,7 @@ This prevents SMTP blocking and improves deliverability.
 
 ---
 
-## ❌ Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 - File name mismatch between Excel and folder  
 - Missing attachment files  
@@ -149,7 +149,7 @@ This prevents SMTP blocking and improves deliverability.
 
 ---
 
-## 📌 Possible Use Cases
+## Possible Use Cases
 
 - Event invitations  
 - Conference passes  
@@ -159,7 +159,7 @@ This prevents SMTP blocking and improves deliverability.
 
 ---
 
-## 🤝 Final Thoughts
+## Final Thoughts
 
 This project demonstrates how **automation, structured data, and creativity** can solve real-world organizational problems efficiently.
 
